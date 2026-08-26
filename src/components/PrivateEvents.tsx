@@ -1,0 +1,2 @@
+import { mailto, siteContent } from '../data/siteContent'
+export function PrivateEvents() { return <section id="events"><div className="section-heading"><span>01</span><h2>Music for the moment</h2></div><div className="split"><p className="lead">From an intimate dinner to a full celebration, Joel shapes the music around your room, your guests, and the feeling you want to create.</p><div><ul className="service-list">{siteContent.eventServices.map(x=><li key={x}>{x}</li>)}</ul><a className="text-link" href={mailto.booking}>Inquire About an Event →</a></div></div></section> }

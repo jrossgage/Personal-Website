@@ -1,0 +1,3 @@
+import React from 'react'; import ReactDOM from 'react-dom/client'; import './styles.css'
+import { Navigation } from './components/Navigation'; import { Hero } from './components/Hero'; import { PrivateEvents } from './components/PrivateEvents'; import { Lessons } from './components/Lessons'; import { Media } from './components/Media'; import { Bio } from './components/Bio'; import { ContactCTA } from './components/ContactCTA'; import { Footer } from './components/Footer'
+function App() { return <><Navigation /><main><Hero /><PrivateEvents /><Lessons /><Media /><Bio /><ContactCTA /></main><Footer /></> }; ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>)

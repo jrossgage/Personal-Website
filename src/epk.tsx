@@ -1,0 +1,1 @@
+import React from 'react'; import ReactDOM from 'react-dom/client'; import './styles.css'; import { EPKPage } from './components/EPKPage'; ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><EPKPage/></React.StrictMode>)
