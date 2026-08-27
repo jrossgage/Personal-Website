@@ -420,9 +420,19 @@ footer {
     padding-top: 3rem
 }
 
-.epk>h1 {
-    max-width: 950px;
-    font-size: clamp(3rem, 8vw, 6.5rem)
+.epk-headline {
+    width: 100%;
+    min-height: clamp(420px, 62vw, 680px);
+    margin-top: 1rem;
+    padding: clamp(2rem, 6vw, 5rem);
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: clamp(3rem, 8vw, 6.5rem);
+    background-image: linear-gradient(180deg, rgba(16, 23, 19, .08) 25%, rgba(16, 23, 19, .88) 100%), url('/images/joel-guitar-live.jpeg');
+    background-size: cover;
+    background-position: 38% center;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, .3)
 }
 
 .epk-grid {
@@ -440,8 +450,7 @@ footer {
     background: var(--forest)
 }
 
-.promo img,
-.epk-live-photo img {
+.promo img {
     width: 100%;
     height: 100%;
     display: block;
@@ -450,18 +459,6 @@ footer {
 
 .promo img {
     object-position: center 42%
-}
-
-.epk-live-photo {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    margin: clamp(4rem, 8vw, 7rem) 0 0;
-    overflow: hidden;
-    background: var(--forest)
-}
-
-.epk-live-photo img {
-    object-position: 38% center
 }
 
 .epk>section {

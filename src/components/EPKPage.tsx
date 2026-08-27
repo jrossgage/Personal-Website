@@ -8,7 +8,7 @@ export function EPKPage() {
         <main className="epk">
             <a className="brand" href="/">{siteContent.name}</a>
             <p className="eyebrow">Electronic Press Kit</p>
-            <h1>{epk.headline}</h1>
+            <h1 className="epk-headline">{epk.headline}</h1>
 
             <section>
                 <h2>Featured live video</h2>
@@ -34,10 +34,6 @@ export function EPKPage() {
                 </div>
             </div>
 
-
-            <figure className="epk-live-photo">
-                <img src="/images/joel-guitar-live.jpeg" alt="Joel Gage performing live on electric guitar" />
-            </figure>
 
             <section>
                 <h2>Performance options</h2>
